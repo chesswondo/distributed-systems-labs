@@ -178,7 +178,7 @@ public:
 
 int main(int argc, char* argv[]) {
     // Select the algorithm
-    bool use_tanenbaum = true;
+    bool use_tanenbaum = false;
 
     if (use_tanenbaum) {
         std::cout << "Starting Tanenbaum's Algorithm (Mutex + 5 Semaphores)\n";
